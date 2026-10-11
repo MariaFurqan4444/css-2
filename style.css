@@ -1,0 +1,127 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+#parent {
+    background-image: url(https://mmg.whatsapp.net/v/t62.7118-24/828986712_1241543791505934_4643877881495551496_n.enc?ccb=11-4&oh=01_Q5Aa5gFIObYfvIoU4UNoUTEbDSiTAQ1RyB9JLOBlaErBAyX0Ng&oe=6AE5F2C6&_nc_sid=5e03e0);
+    background-size: cover;
+    height:350px;
+    width: 500px;
+    border-radius: 20px;
+    margin: 100px auto;
+    overflow: hidden;
+    position: relative
+}
+#left {
+    background-color:#C4A484;
+    height: 250px;
+    width: 225px;
+    float: left;
+    /* margin: auto; */
+    margin: 50px 0 200px 40px;
+    border-radius: 0px 300px 300px 0px;
+     z-index: 2;
+     position: absolute;
+
+}
+#right {
+    height: 250px;
+    width: 410px;
+    /* margin: auto; */
+    margin: 50px 0 200px 40px;
+    float: left;
+    z-index: 1;
+    position: absolute;
+  background-color: #141414;
+  border-left: 2px solid #C8A27A;
+}
+.img {
+    height: 240px;
+    width: 230px;
+    position: absolute;
+    right: 10px;
+    bottom: 50px;
+    z-index: 3;
+    left: 30 px;
+    top: 10px;
+    /* margin: auto;
+    padding: 0%; */
+    margin-left: 5px;
+    margin-top: 15px;
+    }
+.heading {
+    color: #C4A484;
+    text-align: center;
+    margin-left: 190px;
+    margin-top: 15px;
+    font-size: medium;
+
+}
+.para {
+    color: #C4A484;
+    font-size: smaller;
+     margin-left: 220px;
+}
+#li {
+    color: #C4A484;
+    font-size: smaller;
+     margin-left: 240px;
+}
+#button {
+     color: #C4A484;
+    font-size: smaller;
+     margin-left: 300px; 
+     margin-top: 0px;
+     /* height: 70px;
+     width: 70px; */
+ } 
+body {
+    background-color: black;
+}
+.color {
+    height: 20px;
+    width: 20px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 110px;}
+
+.white {
+    background-color: white;
+    margin-top: 1px;
+    height: 10px;
+    width: 10px;
+     border-radius: 50%;
+    display: inline-block;
+    margin-left: 110px;}
+.beige {
+    background-color: beige;
+    margin-top: 1px;
+    height: 10px;
+    width: 10px;
+     border-radius: 50%;
+    display: inline-block;
+    margin-left: 110px;}
+
+.grey {
+    background-color: grey;
+    margin-top: 1px;
+    height: 10px;
+    width: 10px;
+     border-radius: 50%;
+    display: inline-block;
+    margin-left: 110px;}
+
+.color:hover {
+    border: 3px solid rgb(206, 172, 110);
+}
+#headings {
+     color: #C4A484;
+    margin-left: 115px;
+    margin-top: 8px;
+    font-size: medium;
+}
+
+
